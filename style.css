@@ -13,7 +13,7 @@ main {
 }
 
 a {
-  color: #9d7fe3;
+  color: #000000;
 }
 
 footer {
@@ -24,7 +24,7 @@ footer {
 }
 
 .app {
-  background: white;
+  background: rgb(191, 155, 191);
   max-width: 600px;
   margin: 45px auto;
   padding: 30px;
@@ -42,11 +42,11 @@ footer {
 }
 
 .search-form-button {
-  background-color: rgb(245, 150, 238);
+  background-color: rgb(125, 30, 149);
   padding: 15px 20px;
   border: none;
   border-radius: 6px;
-  color: white;
+  color: rgb(209, 201, 201);
   font-size: 16px;
 }
 
@@ -67,17 +67,16 @@ footer {
   line-height: 20px;
 }
 .weather-app-details strong {
-  color: rgb(229, 163, 174);
+  color: rgb(87, 61, 108);
 }
 
 .temp-container {
   display: flex;
 }
-
-.weather-app-icon {
-  font-size: 44px;
-  margin-top: 22px;
-  font-size: 55px;
+#icon {
+  width: 88px;
+  height: 88px;
+  margin-top: 15px;
 }
 
 .temp-value {
@@ -87,4 +86,9 @@ footer {
 
 .temp-unit {
   font-size: 27px;
+  margin-top: 25px;
+}
+
+.shecodes-img {
+  width: 88px;
 }
