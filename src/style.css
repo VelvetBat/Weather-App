@@ -73,6 +73,10 @@ footer {
 .temp-container {
   display: flex;
 }
+
+#current-text {
+  font-size: 12px;
+}
 #icon {
   width: 88px;
   height: 88px;
@@ -96,18 +100,20 @@ footer {
 
 .weather-forecast-date {
   font-size: 16px;
+  text-align: center;
 }
 
 .weather-forecast-icon {
-  width: 90px;
+  width: 80px;
   text-align: center;
-  display: block;
-  margin: 0 auto;
+  display: inline;
+  margin: 0;
 }
 
 .weather-forecast-temperatures {
-  font-size: 13px;
-  padding: 10 10 10 0px;
+  font-size: 15px;
+  padding: 30 10 10 0px;
+  text-align: center;
 }
 
 .weather-forecast-temperature-min {
