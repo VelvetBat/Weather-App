@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -10,8 +11,10 @@
       rel="stylesheet"
     />
     <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.37/moment-timezone-with-data-1970-2030.min.js"></script>
     <link rel="stylesheet" href="src/style.css" />
-    <title>Main Weather Project</title>
+    <title>App</title>
   </head>
   <body>
     <div class="app">
@@ -32,6 +35,7 @@
           <div>
             <h1 class="weather-app-city" id="city"></h1>
             <p class="weather-app-details">
+              <div id="current-text">Current Weather<br /></div>
               <span id="time"></span>,
               <span id="description"> scattered clouds</span>
               <br />
@@ -45,23 +49,22 @@
             <div class="temp-unit">°C</div>
           </div>
         </div>
-
         <div class="weather-forecast" id="forecast"></div>
       </main>
 
       <footer>
-        Coded by <a href="https://github.com/VelvetBat">Rebecca Z </a> , open
+        ☾ ✶ Coded by <a href="https://github.com/VelvetBat">Rebecca Z</a> ✶ ☽, open
         sourced on
         <a href="https://github.com/VelvetBat?tab=repositories"> GitHub</a> and
         hosted by
         <a href="https://app.netlify.com/teams/velvetbat/overview">Netlify </a>
-        | SheCodes
+        | <a href="https://www.shecodes.io/">SheCodes</a>
+        </a></a>
         <img
-          src="https://www.shecodes.io/assets/branding/logo-shecodes-f9fa0540d113c086f61eb6e89466c0cbd24a42163b6a96d4b01da078803f53ee.png"
-          class="shecodes-img"
-        />
+          src="https://www.shecodes.io/assets/branding/logo-shecodes-f9fa0540d113c086f61eb6e89466c0cbd24a42163b6a96d4b01da078803f53ee.png" class="shecodes-img"/>
       </footer>
     </div>
+
     <script src="src/index.js"></script>
   </body>
 </html>
